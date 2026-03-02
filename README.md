@@ -22,3 +22,23 @@ Monitoring → Prometheus + Grafana
 ## Deployment Steps
 
 1 Clone repository
+git clone https://github.com/username/week12-production-deployment
+
+
+2 Deploy infrastructure
+
+
+cd infrastructure/terraform
+terraform init
+terraform apply
+
+
+3 Deploy application
+
+
+helm install frontend infrastructure/kubernetes/helm/frontend
+
+
+4 Monitor application
+
+Access Grafana dashboard.
