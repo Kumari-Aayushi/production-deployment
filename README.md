@@ -22,7 +22,7 @@ Monitoring → Prometheus + Grafana
 ## Deployment Steps
 
 1 Clone repository
-git clone https://github.com/username/week12-production-deployment
+git clone https://github.com/Kumari-Aayushi/production-deployment/tree/main
 
 
 2 Deploy infrastructure
